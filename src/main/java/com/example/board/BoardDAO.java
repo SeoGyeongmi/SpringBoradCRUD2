@@ -51,6 +51,7 @@ public class BoardDAO {
             vo.setRegdate(rs.getDate("regdate"));
             vo.setEditdate(rs.getDate("editdate"));
             vo.setCnt(rs.getInt("cnt"));
+//            System.out.println(vo.getContent());
             return vo;
         }
     }

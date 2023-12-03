@@ -15,7 +15,7 @@ public class BoardController {
 
     @RequestMapping(value = "/", method = RequestMethod.GET)
     public String boardlist(Model model) {
-        model.addAttribute("post", boardService.getBoardList());
+        model.addAttribute("list", boardService.getBoardList());
         return "post";
     }
 

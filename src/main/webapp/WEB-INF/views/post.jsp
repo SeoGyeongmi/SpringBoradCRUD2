@@ -9,7 +9,28 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" isELIgnored="false"%>
 <html>
 <head>
-    <title>Post Page</title>
+    <title>자유게시판</title>
+    <style>
+        #list {
+            font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+        #list td, #list th {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align:center;
+        }
+        #list tr:nth-child(even){background-color: #f2f2f2;}
+        #list tr:hover {background-color: #ddd;}
+        #list th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: center;
+            background-color: #006bb3;
+            color: white;
+        }
+    </style>
     <script>
         function delete_ok(id){
             var a = confirm("정말로 삭제하겠습니까?");
@@ -30,6 +51,7 @@
         <th>Writer</th>
         <th>Content</th>
         <th>Regdate</th>
+        <th>Editdate</th>
         <th>Edit</th>
         <th>Delete</th>
     </tr>
