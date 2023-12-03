@@ -9,12 +9,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="64366c19-62f1-4f9f-ba6d-487052cbc839" name="Changes" comment="db연결 필요(post.jsp에서 db내용 보이지 않음)">
+    <list default="true" id="64366c19-62f1-4f9f-ba6d-487052cbc839" name="Changes" comment="아 이제 jsp 페이지만 고치면 된다ㅠ">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/board/BoardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/board/BoardController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/board/BoardDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/board/BoardDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/post.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/post.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/addform.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/addform.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/editform.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/editform.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -197,7 +196,7 @@
       <workItem from="1701157410380" duration="246000" />
       <workItem from="1701157661116" duration="5749000" />
       <workItem from="1701325533319" duration="12103000" />
-      <workItem from="1701429486296" duration="10267000" />
+      <workItem from="1701429486296" duration="10897000" />
     </task>
     <task id="LOCAL-00001" summary="first init">
       <option name="closed" value="true" />
@@ -271,7 +270,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701582370006</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="아 이제 jsp 페이지만 고치면 된다ㅠ">
+      <option name="closed" value="true" />
+      <created>1701583984199</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1701583984199</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -298,6 +305,7 @@
     <MESSAGE value="fix error at applicationContext.xml" />
     <MESSAGE value="일단 커밋~" />
     <MESSAGE value="db연결 필요(post.jsp에서 db내용 보이지 않음)" />
-    <option name="LAST_COMMIT_MESSAGE" value="db연결 필요(post.jsp에서 db내용 보이지 않음)" />
+    <MESSAGE value="아 이제 jsp 페이지만 고치면 된다ㅠ" />
+    <option name="LAST_COMMIT_MESSAGE" value="아 이제 jsp 페이지만 고치면 된다ㅠ" />
   </component>
 </project>
